@@ -1,0 +1,24 @@
+
+  
+  .Search{
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .Search input[type=text]{
+    width: 90%;
+    border-bottom: 1px solid orange;
+    padding: 0.5rem;
+    color: gray;
+    font-size: 25px;
+  }
+  
+  .Search input[type=text]::placeholder{
+    color: gray;
+  }
+  
+  .btn{
+    padding: .3rem 2rem;
+    margin: 1rem;
+    cursor: pointer;
+  }

@@ -1,0 +1,26 @@
+@media only screen and (max-width:1341px){
+    .CategoriItem img{
+        width: 100px;
+       }
+
+       .CategoriList{
+        display: flex;
+        flex-direction: column;
+        background-color: #2196F3;
+        padding: 5px;
+        
+      }
+
+       .CategoriItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+        padding: 2rem;
+        
+        border-radius: 5rem;
+        box-shadow: 0px 1rem 1rem rgba(0,0, 0, 5);
+        background: goldenrod;
+        
+      }
+}

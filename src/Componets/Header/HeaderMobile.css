@@ -1,0 +1,14 @@
+@media only screen and (max-width:1341px){
+
+    .Header{
+        background: rgb(56, 48, 5);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Header a{
+        margin: 0.8rem;
+        font-size: 1rem;
+    }
+}

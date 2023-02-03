@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.CategoriList{
+    display: flex;
+    background-color: #2196F3;
+    
+  }
+  .CategoriItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5rem;
+    padding: .6rem;
+    border-radius: 5rem;
+    box-shadow: 0px 1rem 1rem rgba(0,0, 0, 5);
+    background: goldenrod;
+    
+  }
+  .CategoriItem:hover{
+    background: darkorange;
+  }
+  
+  .CategoriItem p{
+    font-size: 1.5rem;
+    color: blue;
+    margin-top: 3rem;
+  }
+   .CategoriItem img{
+    width: 300px;
+   }
+ 
+  .CategoriItem h3{
+    font-size: 2rem;
+    color: rgb(95, 16, 116);
+    margin-top: 2rem;
+  }
+  .CategoriItem a{
+    font-size: 2rem;
+    color: rgb(95, 16, 116);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .ShowAndHide {
+    white-space: nowrap; 
+    width: 300px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .ShowAndHide:hover {
+    white-space: normal; 
+    overflow: visible;
+    width: 100%; 
+  }

@@ -1,0 +1,22 @@
+.favoritDetalis{
+      display: flex;
+      justify-content: end;
+        
+}
+.favoritDetalis h3{
+    color: darkorange;
+    padding: 0.5rem;
+    height: 0rem;
+}
+.close{
+    margin: 1rem;
+    color: red;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.favoritsection{
+  
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background: antiquewhite;
+}

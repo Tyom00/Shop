@@ -1,0 +1,103 @@
+.DetalisList{
+    display: flex;
+    padding: 1rem;
+    position: relative;
+  }
+  .DetalisItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    padding: 1rem;
+    width: 400px;
+    border-radius: 3rem;
+    box-shadow: 0px 1rem 1rem rgba(0,0, 0, 5);
+    background: goldenrod;
+    
+  }
+  .DetalisItem:hover{
+    background: darkorange;
+  }
+  
+  .DetalisItem img{
+    width: 300px;
+    border-radius: 50%;
+  }
+ 
+  .DetalisItem h3{
+    font-size: 1.5rem;
+    color: rgb(95, 16, 116);
+    margin-top: 2rem;
+  }
+  .composition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 1rem 1rem rgba(0,0, 0, 5);
+    background: rgb(205, 71, 241);
+    line-height: 1rem;
+    margin-top: 2rem;
+  }
+  .composition h2{
+    color:rgb(95, 16, 116);
+    line-height: 1rem;
+    
+  }
+  .composition p{
+    color:rgb(2, 19, 71);
+    font-size: 1rem;
+  }
+
+  .DetalisItem a{
+    margin:2rem
+  }
+  .compositionHide {
+    white-space: nowrap; 
+    width: 300px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+  }
+  
+  .compositionHide:hover {
+    white-space: normal;
+    overflow: visible;
+    width: 80%; 
+  }
+
+  .detalisBack{
+   
+    background-color: goldenrod;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 45%;
+    margin-bottom: 1rem;
+    z-index: 1;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border:none;
+    color:#3140ec
+  }
+  .favorit1{
+      
+    background-color: goldenrod;
+    position: absolute;
+    margin: 1rem;
+    z-index: 1;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 2rem;
+    border:none;
+    color:#3140ec
+  
+  }
+  .icon{
+    color: rebeccapurple;
+    font-size:2rem;
+  }
+  .iconStart{
+  color: rgb(118, 238, 70);
+  font-size:2rem;
+  }

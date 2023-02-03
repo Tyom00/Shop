@@ -1,0 +1,49 @@
+.PagesBox{
+    display: flex;
+   justify-content: center;
+   
+}
+.pages{
+    display: flex;
+    justify-content: space-around;
+  
+   
+}
+.pagesItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: skyblue;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.next, .prev{
+    width: 60px;
+    height: 30px;
+    background: skyblue;
+    margin: 1rem;
+    border: none;
+    cursor: pointer; 
+}
+.pagesItem:focus{
+   background-color: rebeccapurple;
+}
+.sortButton{
+    width: 60px;
+    height: 30px;
+    background: skyblue;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;  
+}
+.select{
+    width: 60px;
+    height: 30px;
+    background: skyblue;
+    margin: 2rem;
+    border: none;
+    cursor: pointer;
+}
